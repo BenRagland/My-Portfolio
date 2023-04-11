@@ -15,7 +15,7 @@ const SectionWrapper = (Component, idName) => (
         
         >
             <span className="hash-span" id={idName} >
-             &nbsp;
+             &nbsp; 
             </span>
 
             <Component />

@@ -14,6 +14,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  tesla,
   threejs,
 } from "../assets";
 
@@ -93,32 +94,9 @@ const overview = `I'm a skilled software developer with experience in TypeScript
           `
 const experiences = [
   {
-    title: "Junior Title Processor",
-    company_name: "",
-    icon: "",
-    iconBg: "#383E56",
-    date: "Jan 2012 - June 2016",
-    points: [
-      "Worked under the mentorship of esteemed company owners to gain key insights into negotiations and contract analysis",
-      "Facilitated seamless communications between 2-10 parties pertaining to 50-100 separate contracts each month."
-    ],
-  },
-  {
-    title: "The Block Food Hall",
-    company_name: "Product Marketing",
-    icon: "",
-    iconBg: "#E6DEDD",
-    date: "Jan 2017 - Aug 2018",
-    points: [
-      "Founded and grew an innovative Social Media Marketing agency from scratch to sustained profitability. Having initially serviced multiple clients, owing to continued success, pivoted the company to support The Block Exclusively",
-      " Effectively led manufacturers, engineers, and other graphic designers to source and develop exciting packaging, apparel, and physical store design, in addition to social media graphics, flyer's and promo graphics",
-      "Partnered with key stakeholders to develop innovative experimental branding techniques & systems that consistently exceeded established KPI’s."
-    ],
-  },
-  {
     title: "Hospitality",
-    company_name: "",
-    icon: "",
+    company_name: "Hospitality",
+    icon: tesla,
     iconBg: "#383E56",
     date: "Jan 2010 - Present",
     points: [
@@ -130,7 +108,7 @@ const experiences = [
   {
     title: "Freelance Consultant",
     company_name: "",
-    icon: "",
+    icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2020 - Present",
     points: [
@@ -139,13 +117,36 @@ const experiences = [
       "Provide bespoke training to company owners and employees to deliver meaningful business improvements, while also servicing leadership with targeted reports",
       "Blend creative vision with technical expertise to design and execute compelling multichannel marketing campaigns."
     ]
+  },
+  {
+    title: "Product Manager",
+    company_name: "The Block Foodhall",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Jan 2017 - Aug 2018",
+    points: [
+      "Founded and grew an innovative Social Media Marketing agency from scratch to sustained profitability. Having initially serviced multiple clients, owing to continued success, pivoted the company to support The Block Exclusively",
+      " Effectively led manufacturers, engineers, and other graphic designers to source and develop exciting packaging, apparel, and physical store design, in addition to social media graphics, flyer's and promo graphics",
+      "Partnered with key stakeholders to develop innovative experimental branding techniques & systems that consistently exceeded established KPI’s."
+    ],
+  },
+  {
+    title: "Jr. Real Estate Title Processor",
+    company_name: "",
+    icon: tesla,
+    iconBg: "#fff",
+    date: "Jan 2012 - June 2016",
+    points: [
+      "Worked under the mentorship of esteemed company owners to gain key insights into negotiations and contract analysis",
+      "Facilitated seamless communications between 2-10 parties pertaining to 50-100 separate contracts each month."
+    ],
   }
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
