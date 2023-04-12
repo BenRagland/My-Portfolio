@@ -22,8 +22,15 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import LeftMountainFaded from "./LeftMountainFaded.png";
+import RightMountainFaded from "./RightMountainFaded.png";
+import MountainWater from "./MountainWater.png";
+
 
 export {
+  MountainWater,
+  LeftMountainFaded,
+  RightMountainFaded,
   logo,
   backend,
   creator,
