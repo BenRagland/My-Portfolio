@@ -8,7 +8,6 @@ import {
   reactjs,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   carrent,

@@ -39,13 +39,13 @@ const HeroTwo = () => {
 
       {/* <ComputersCanvas /> */}
       <img
-        className="sm:h-[80vh] h-[50vh] absolute left-0 bottom-0 z-10"
+        className="sm:h-[80vh] h-[50vh] opacity-90 absolute left-0 bottom-0 z-[12]"
         src={LeftMountainFaded}
         alt="Blue Mountain"
       />
 
       <img
-        className=" sm:h-[60vh] h-[40vh]  absolute bottom-0 w-full z-0"
+        className=" sm:h-[70vh] h-[40vh] opacity-60 absolute bottom-0 w-full z-0"
         src={MountainWater}
         alt="Blue Water"
       />
@@ -56,17 +56,11 @@ const HeroTwo = () => {
         alt="Blue Mountains"
       />
 
-      <div>
-        <StarsCanvas
-          className="w-full h-screen mx-auto z-[500]"
-          style={{ position: "absolute", zIndex: "100" }}
-        />
-      </div>
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center z-20">
         <a href="#about">
           <div
-            className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary 
+            className="w-[35px] h-[64px] rounded-3xl border-4 border-white 
             flex justify-center items-start p-2"
           >
             <motion.div

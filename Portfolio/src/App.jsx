@@ -10,7 +10,9 @@ const App = () =>{
           {/* className="bg-hero-pattern bg-cover bg-no-repeat bg-center z-[0] */}
           <Navbar />
           {/* <Hero /> */}
-          <StarsCanvas />
+          <StarsCanvas
+          height={`h-[70vh]`}
+        />
           <HeroTwo />
         </div>
         <About />

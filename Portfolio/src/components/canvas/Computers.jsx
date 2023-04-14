@@ -8,7 +8,7 @@ import CanavasLoader from '../Loader'
 import Loader from '../Loader'
 
 const Computers = () => {
-  const computer = useGLTF('../../../public/public/desktop_pc/scene.gltf')
+  const computer = useGLTF('../../../public/desktop_pc/scene.gltf')
   
 
   return (
@@ -52,15 +52,15 @@ const ComputerCanvas = () =>{
       >
         <Suspense fallback={<Loader />}>
           <OrbitControls  
-          enable={false} 
+          enableZoom={false} 
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
 
         />
           <Computers />
-          <Preload all />
         </Suspense>
 
+        <Preload all />
       </Canvas>
   )
 }
