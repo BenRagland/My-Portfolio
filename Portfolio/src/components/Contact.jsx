@@ -21,7 +21,11 @@ const Contact = () => {
   })
   const formRef = useRef()
   const handleChange = (e) =>{
-
+    const { name,value }= e.target
+    setForm({
+      ...form,
+      [name]:value
+    })
   }
   const handleSubmit = (e) =>{
 
@@ -47,9 +51,10 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">Your Name</span>
             <input 
             type="text"
-            name="text"
+            name="name"
             value={form.name}
-            placeholder="Your Name Here"
+            onChange={handleChange}
+            placeholder="Full Name"
             className="border-none outlined-none font-medium bg-tertiary py-5 px-6 placeholder:text-secondary text-white rounded-xl"
             />
           </label>
@@ -60,8 +65,9 @@ const Contact = () => {
             type="email"
             name="email"
             value={form.email}
-            placeholder="Your Email Here"
+            placeholder="Email Address"
             className="border-none outlined-none font-medium bg-tertiary py-5 px-6 placeholder:text-secondary text-white rounded-xl"
+            onChange={handleChange}
             />
           </label>
           {/* Message Input */}
@@ -73,6 +79,7 @@ const Contact = () => {
             placeholder="How can I help you?"
             className="border-none outlined-none font-medium bg-tertiary py-5 px-6 placeholder:text-secondary text-white rounded-xl"
             rows="7"
+            onChange={handleChange}
             />
           </label>
 

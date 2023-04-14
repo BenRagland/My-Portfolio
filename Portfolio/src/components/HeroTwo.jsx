@@ -18,21 +18,20 @@ const HeroTwo = () => {
       {/* Hero content Container */}
       <div
         className={`${styles.paddingX} absolute inset-0 top-[20vh]
-      mx-auto max-w-7xl flex flex-row justify-center gap-5 `}
+      mx-auto max-w-7xl flex flex-col-reverse justify-end items-center gap-5 `}
       >
         {/* decorative timeline */}
         <div className="flex flex-col justify-start items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className=" w-1 sm:h-80 h-40 violet-gradient" />
+          <div className=" h-1 sm:w-80 w-40 violet-gradient" />
         </div>
         {/* hero text */}
-        <div >
-          <h1 className={`${styles.heroHeadText}text-white `}>
+        <div>
+          <h1 className={`${styles.heroHeadText}`}>
             Hi, I'm <span className="text-[#915eff]">Ben</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I Develop cool Shiii all the <br className="sm:block hidden" />
-            time, this is a long sentence
+            I Design and Build Solutions  <br className="sm:block hidden" />
+            
           </p>
         </div>
       </div>

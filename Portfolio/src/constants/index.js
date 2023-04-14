@@ -77,20 +77,25 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
 ];
-const overview = `I'm a skilled software developer with experience in TypeScript and
-          JavaScript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
-          `
+// I 
+const overview = `I'm a passionate software developer with a keen eye for design and 
+                  problem-solving. I have a strong foundation in html,css, & JavaScript, 
+                  and have honed my skills in frameworks such as React, Node.js, and Three.js.
+                  I'm dedicated to delivering efficient, scalable, and user-friendly solutions
+                  that make a meaningful impact. Whether it's designing intuitive user interfaces
+                  or optimizing complex systems, I am always eager to tackle new challenges and
+                  find innovative solutions. With my commitment to continuous learning, I'm confident 
+                  that I can bring value to any project and help drive its success.  Let's work 
+                  together to bring your ideas to life! `
+            
 const experiences = [
   {
     title: "Hospitality",
