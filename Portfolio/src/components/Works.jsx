@@ -14,8 +14,8 @@ const ProjectTile =({
   source_code_link
 }) =>{
   return(
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
+    
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>      <Tilt
         options={{
           max: 45,
           scale: 1,
@@ -72,7 +72,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My Projects</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
 
       <div>
@@ -88,7 +88,7 @@ const Works = () => {
           </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 justify-center sm:flex sm:flex-wrap gap-7'>
         {projects.map((project,index) =>(
           <ProjectTile key={`project-${index}`} index={project.index} {...project}/>
         ))}

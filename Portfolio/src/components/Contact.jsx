@@ -10,8 +10,6 @@ import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 
 
-
-
 const Contact = () => {
   const [ loading, setLoading ] = useState(false)
   const [form , setForm ] = useState({
@@ -28,6 +26,33 @@ const Contact = () => {
     })
   }
   const handleSubmit = (e) =>{
+    e.preventDefault()
+    setLoading(true)
+    emailjs.send(
+      'service_9b9i1is',
+      'template_zbw4mzo',
+      { from_name:form.name,
+        to_name:"Ben",
+        from_email:form.email,
+        to_email:"Officialbenragland@gmail.com",
+        message:form.message
+      },
+      'wsWGnVkQ77GS1tusP'
+    )
+
+
+    .then(()=>{
+      setLoading(false)
+      alert("Thanks! I'll get back to you as soon possible :) ")
+      setForm({
+        name:" ",
+        email:" ",
+        message:" "
+      })
+    },(error)=>{
+      alert("Oops, my apologies.Something went wrong here.Please send your message to my email directly: Officialbenragland@gmail.com")
+    })
+
 
   }
 
@@ -52,7 +77,7 @@ const Contact = () => {
             <input 
             type="text"
             name="name"
-            value={form.name}
+            value={form.name || ""}
             onChange={handleChange}
             placeholder="Full Name"
             className="border-none outlined-none font-medium bg-tertiary py-5 px-6 placeholder:text-secondary text-white rounded-xl"
@@ -75,7 +100,7 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">Message</span>
             <textarea 
             name="message"
-            value={form.message}
+            value={form.message || ""}
             placeholder="How can I help you?"
             className="border-none outlined-none font-medium bg-tertiary py-5 px-6 placeholder:text-secondary text-white rounded-xl"
             rows="7"

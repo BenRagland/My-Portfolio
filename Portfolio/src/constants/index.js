@@ -11,10 +11,11 @@ import {
   git,
   figma,
   carrent,
-  jobit,
-  tripguide,
-  tesla,
+  whiteLabelSS,
   threejs,
+  backend,
+  logo,
+  HighFashionEarth
 } from "../assets";
 
 export const navLinks = [
@@ -38,12 +39,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Graphic Designer",
     icon: mobile,
   },
   {
-    title: "Content Creator",
+    title: "Strategic Marketer",
     icon: creator,
+  },
+  {
+    title: "Business Strategist",
+    icon: backend,
   },
 ];
 
@@ -65,7 +70,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
+    name: "Tailwind",
     icon: tailwind,
   },
   {
@@ -85,22 +90,23 @@ const technologies = [
     icon: figma,
   },
 ];
-// I 
-const overview = `I'm a passionate software developer with a keen eye for design and 
-                  problem-solving. I have a strong foundation in html,css, & JavaScript, 
-                  and have honed my skills in frameworks such as React, Node.js, and Three.js.
-                  I'm dedicated to delivering efficient, scalable, and user-friendly solutions
-                  that make a meaningful impact. Whether it's designing intuitive user interfaces
-                  or optimizing complex systems, I am always eager to tackle new challenges and
-                  find innovative solutions. With my commitment to continuous learning, I'm confident 
+
+const overviewP1 = `I'm a passionate software developer with a keen eye for design and 
+                  spotting growth opportunities. I'm dedicated to delivering efficient, user-friendly, beautiful solutions
+                  that make meaningful impact.`
+
+const overviewP2= `Whether designing intuitive user interfaces
+                  or creating a product to grasp a new market, I am always eager to tackle new challenges and
+                  come up with innovative solutions. With my commitment to continuous learning, I'm confident 
                   that I can bring value to any project and help drive its success.  Let's work 
                   together to bring your ideas to life! `
-            
+
+
 const experiences = [
   {
     title: "Hospitality",
     company_name: "Hospitality",
-    icon: tesla,
+    icon: logo,
     iconBg: "#383E56",
     date: "Jan 2010 - Present",
     points: [
@@ -112,7 +118,7 @@ const experiences = [
   {
     title: "Freelance Consultant",
     company_name: "",
-    icon: tesla,
+    icon: logo,
     iconBg: "#E6DEDD",
     date: "Jan 2020 - Present",
     points: [
@@ -125,7 +131,7 @@ const experiences = [
   {
     title: "Product Manager",
     company_name: "The Block Foodhall",
-    icon: tesla,
+    icon: logo,
     iconBg: "#E6DEDD",
     date: "Jan 2017 - Aug 2018",
     points: [
@@ -137,7 +143,7 @@ const experiences = [
   {
     title: "Jr. Real Estate Title Processor",
     company_name: "",
-    icon: tesla,
+    icon: logo,
     iconBg: "#fff",
     date: "Jan 2012 - June 2016",
     points: [
@@ -149,30 +155,11 @@ const experiences = [
 
 
 const projects = [
-  {
-    name: "Shoe Purchasing site",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent
-  },
+  
   {
     name: "High Fashion Earth",
     description:
-      "An Informational site for a VA company that resales clothing",
+      "An exciting new company in Arlington, VA that purchases and resales high end clothing. Promoting sustainability and Quality over quantity.",
     tags: [
       {
         name: "react",
@@ -183,19 +170,19 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit
+    image: HighFashionEarth
   },
   {
-    name: "Trip Guide",
+    name: "White Label Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A project allowing you to customize and download a mockup a t-shirt with any logo, color, or art piece rendered by an A.I image creator. ",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "threeJs",
         color: "green-text-gradient",
       },
       {
@@ -203,8 +190,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide
+    image: whiteLabelSS
   },
 ];
 
-export { services, technologies, experiences, projects,overview };
+export { services, technologies, experiences, projects,overviewP1,overviewP2 };

@@ -17,17 +17,17 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
-import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import whiteLabelSS from "./whiteLabelSS.png";
 import LeftMountainFaded from "./LeftMountainFaded.png";
 import RightMountainFaded from "./RightMountainFaded.png";
 import MountainWater from "./MountainWater.png";
-
+import HighFashionEarth from './HighFashionEarth.png'
 
 export {
+  HighFashionEarth,
   MountainWater,
   LeftMountainFaded,
   RightMountainFaded,
@@ -52,5 +52,5 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
+  whiteLabelSS,
 };

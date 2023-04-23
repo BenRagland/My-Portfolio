@@ -2,10 +2,10 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../style";
-import { services, overview } from "../constants";
+import { services, overviewP1,overviewP2 } from "../constants";
 import {SectionWrapper}  from "../hoc";
 import PropTypes from "prop-types";
-
+import {AiOutlineLinkedin} from 'react-icons/ai'
 
 
 import { fadeIn, textVariant } from "../utils/motion";
@@ -41,23 +41,52 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <div>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Who AM I?</h2>
-      </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        {overview}
-      </motion.p>
+      <div className="relative">
+        <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>Introduction</p>
+          <h2 className={styles.sectionHeadText}>Who AM I?</h2>
+        
+        
+          <a className=" absolute top-3 ml-[20em] sm:top-8 sm:ml-[25em] flex flex-col justify-center md:text-[20px] text-[12px]"
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/benragland/">
+            <AiOutlineLinkedin size={40}/>
+            Linkedin
+          </a>
+        </motion.div>
+      </div>
+
+      <div>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        >
+          {overviewP1}
+        </motion.p>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        >
+          {overviewP2}
+        </motion.p>
+
+        
+      </div>
 
       <div className="mt-20 flex justify-center md:justify-start flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
+
+        
+        
+        
       </div>
+
+      
+
     </div>
   );
 };

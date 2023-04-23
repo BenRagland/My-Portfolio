@@ -20,18 +20,18 @@ const HeroTwo = () => {
         className={`${styles.paddingX} absolute inset-0 top-[20vh]
       mx-auto max-w-7xl flex flex-col-reverse justify-end items-center gap-5 `}
       >
+       
         {/* decorative timeline */}
         <div className="flex flex-col justify-start items-center mt-5">
-          <div className=" h-1 sm:w-80 w-40 violet-gradient" />
+          <div className=" h-1 sm:w-80 w-40 rounded-xl violet-gradient" />
         </div>
         {/* hero text */}
-        <div>
-          <h1 className={`${styles.heroHeadText}`}>
+        <div className="flex flex-col items-center">
+          <h1 className={`${styles.heroHeadText} ce`}>
             Hi, I'm <span className="text-[#915eff]">Ben</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I Design and Build Solutions  <br className="sm:block hidden" />
-            
+            I Design and Build Creative Solutions <br className="sm:block hidden" />
           </p>
         </div>
       </div>
@@ -54,7 +54,6 @@ const HeroTwo = () => {
         src={RightMountainFaded}
         alt="Blue Mountains"
       />
-
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center z-20">
         <a href="#about">
