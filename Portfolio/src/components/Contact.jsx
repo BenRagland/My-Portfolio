@@ -13,9 +13,9 @@ import { slideIn } from '../utils/motion'
 const Contact = () => {
   const [ loading, setLoading ] = useState(false)
   const [form , setForm ] = useState({
-    name:" ",
+    name:"",
     email:"",
-    message: " ",
+    message: "",
   })
   const formRef = useRef()
   const handleChange = (e) =>{
@@ -77,7 +77,7 @@ const Contact = () => {
             <input 
             type="text"
             name="name"
-            value={form.name || ""}
+            value={form.name}
             onChange={handleChange}
             placeholder="Full Name"
             className="border-none outlined-none font-medium bg-tertiary py-5 px-6 placeholder:text-secondary text-white rounded-xl"
@@ -95,21 +95,22 @@ const Contact = () => {
             onChange={handleChange}
             />
           </label>
+
           {/* Message Input */}
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Message</span>
             <textarea 
             name="message"
-            value={form.message || ""}
-            placeholder="How can I help you?"
+            value={form.message}
+            placeholder= 'How can I help you?'
             className="border-none outlined-none font-medium bg-tertiary py-5 px-6 placeholder:text-secondary text-white rounded-xl"
-            rows="7"
+            rows={7}
             onChange={handleChange}
             />
           </label>
 
           <button
-            className="outline-none w-fit bg-tertiary py-3 px-8 text-white font-bold shadow-md rounded-xl"
+            className="outline-none w-fit bg-tertiary py-3 px-8 text-white font-bold shadow-md shadow-primary rounded-xl"
 
             type="submit"
           >
@@ -121,7 +122,7 @@ const Contact = () => {
 
       <motion.div
         variants = {slideIn('right', "tween",0.2,1)}
-        className="xl:flex-1 xl:h-full md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto xl:m-3 md:h-[550px] h-[350px]"
       >
 
       <EarthCanvas />

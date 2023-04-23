@@ -105,26 +105,25 @@ const overviewP2= `Whether designing intuitive user interfaces
 const experiences = [
   {
     title: "Hospitality",
-    company_name: "Hospitality",
+    company_name: "Many Notable Brands",
     icon: logo,
     iconBg: "#383E56",
     date: "Jan 2010 - Present",
     points: [
-      "Trained extensively in hospitality service with many notable brands including RPM Italian, 12 Stories, Casamigos, Martell and Jameson.",
-      "Spearheaded food and beverage teams while performing under intense pressure from hundreds , at times thousands, of patrons",
-      "Track record of success multitasking in dynamic environments offering an array of skills in logical problem solving, optimizing processes & business operations"
+      "Trained extensively fine etiquette & communication with many notable brands including RPM Italian, 12 Stories, Casamigos and  Martell.",
+      "Managed teams of service employees while tracking company kpi's in all sectors of the business.",
+      "Track record of success multitasking in dynamic environments offering an array of skills for over 10 years."
     ],
   },
   {
     title: "Freelance Consultant",
-    company_name: "",
+    company_name: "Self-Emplyed",
     icon: logo,
     iconBg: "#E6DEDD",
     date: "Jan 2020 - Present",
     points: [
-      "Complex, multifaceted role encompassing consultancy and leadership functions in support of a cutting-edge, growth-focused marketing environment",
-      "Leverage expertise to drive brand adoption and retention for a diverse portfolio of lounges and restaurants throughout Washington D.C. via high-impact promotional and marketing programs.",
-      "Provide bespoke training to company owners and employees to deliver meaningful business improvements, while also servicing leadership with targeted reports",
+      "Leveraging marketing & hospitality expertise with technical know how to drive brand adoption and retention for a diverse portfolio of lounges and restaurants throughout Washington D.C. ",
+      "Provide bespoke training to company owners and employees to imporve business efficiency & S.O.P's",
       "Blend creative vision with technical expertise to design and execute compelling multichannel marketing campaigns."
     ]
   },
@@ -135,20 +134,21 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2017 - Aug 2018",
     points: [
-      "Founded and grew an innovative Social Media Marketing agency from scratch to sustained profitability. Having initially serviced multiple clients, owing to continued success, pivoted the company to support The Block Exclusively",
+      "Founded a weekly event that grew into a product role, supporting 'The Block' brand Exclusively",
+      "Kicked Off Nightlife & Special Events program ",
       " Effectively led manufacturers, engineers, and other graphic designers to source and develop exciting packaging, apparel, and physical store design, in addition to social media graphics, flyer's and promo graphics",
       "Partnered with key stakeholders to develop innovative experimental branding techniques & systems that consistently exceeded established KPI’s."
     ],
   },
   {
-    title: "Jr. Real Estate Title Processor",
-    company_name: "",
+    title: "Engineering Intern",
+    company_name: "Martin Horne",
     icon: logo,
     iconBg: "#fff",
-    date: "Jan 2012 - June 2016",
+    date: "Jul 2013 - Sept 2013",
     points: [
-      "Worked under the mentorship of esteemed company owners to gain key insights into negotiations and contract analysis",
-      "Facilitated seamless communications between 2-10 parties pertaining to 50-100 separate contracts each month."
+      "Honed skill in Autodesk 3d CAD drafting",
+      "Gained fist hand insight to many industry challenges & solutions via walking over a dozen sites"
     ],
   }
 ];
