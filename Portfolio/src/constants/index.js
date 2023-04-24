@@ -10,7 +10,6 @@ import {
   nodejs,
   git,
   figma,
-  carrent,
   whiteLabelSS,
   threejs,
   backend,
@@ -170,7 +169,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: HighFashionEarth
+    image: HighFashionEarth,
+    source_code_link: "https://github.com/BenRagland/HighFashionEarth",
+    site_link:"https://highfashionearth.com/"
   },
   {
     name: "White Label Website",
@@ -190,7 +191,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: whiteLabelSS
+    image: whiteLabelSS,
+    source_code_link: "https://github.com/BenRagland/WhiteLabelWebsite",
+    site_link:"b"
   },
 ];
 
