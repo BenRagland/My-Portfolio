@@ -14,7 +14,7 @@ import {
   threejs,
   backend,
   logo,
-  HighFashionEarth
+  HighFashionEarth,
 } from "../assets";
 
 export const navLinks = [
@@ -42,18 +42,18 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Strategic Marketer",
+    title: "UI / UX Designer",
     icon: creator,
   },
   {
-    title: "Business Strategist",
+    title: "Builder",
     icon: backend,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML5",
     icon: html,
   },
   {
@@ -65,7 +65,7 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
   },
   {
@@ -73,11 +73,11 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "Node.jS",
     icon: nodejs,
   },
   {
-    name: "Three JS",
+    name: "Three.jS",
     icon: threejs,
   },
   {
@@ -90,18 +90,29 @@ const technologies = [
   },
 ];
 
-const overviewP1 = `I'm a passionate software developer with a keen eye for design and 
-                  spotting growth opportunities. I'm dedicated to delivering efficient, user-friendly, beautiful solutions
-                  that make meaningful impact.`
+const overviewP1 = `A results-driven Front End specialist with a keen eye for design and 
+                  a talent for bridging the gap between creativity and business. I have a passion for bringing ideas to life and delivering efficient, user-friendly,
+                  beautiful solutions that make meaningful impact.`;
 
-const overviewP2= `Whether designing intuitive user interfaces
-                  or creating a product to grasp a new market, I am always eager to tackle new challenges and
-                  come up with innovative solutions. With my commitment to continuous learning, I'm confident 
-                  that I can bring value to any project and help drive its success.  Let's work 
-                  together to bring your ideas to life! `
-
+const overviewP2 = `Whether designing intuitive user interfaces
+                  or creating a product to grasp a new market, I'm always eager to tackle new challenges 
+                  in new and exciting ways. With my insatitable desire for continuous learning, I'm confident 
+                  that I can bring value to any project or team and help drive its success.  Let's work 
+                  together to bring your ideas to life! `;
 
 const experiences = [
+  {
+    title: "Freelance Consultant",
+    company_name: "Self-Emplyed",
+    icon: logo,
+    iconBg: "#E6DEDD",
+    date: "Jan 2020 - Present",
+    points: [
+      "Leverage marketing & hospitality expertise with technical know how to drive brand adoption and retention for a diverse portfolio of lounges and restaurants throughout Washington D.C. ",
+      "Provide bespoke training to company owners and employees to imporve business efficiency & S.O.P's",
+      "Blend creative vision with technical expertise to design and execute compelling multichannel marketing campaigns.",
+    ],
+  },
   {
     title: "Hospitality",
     company_name: "Many Notable Brands",
@@ -111,20 +122,8 @@ const experiences = [
     points: [
       "Trained extensively fine etiquette & communication with many notable brands including RPM Italian, 12 Stories, Casamigos and  Martell.",
       "Managed teams of service employees while tracking company kpi's in all sectors of the business.",
-      "Track record of success multitasking in dynamic environments offering an array of skills for over 10 years."
+      "Track record of success multitasking in dynamic environments offering an array of skills for over 10 years.",
     ],
-  },
-  {
-    title: "Freelance Consultant",
-    company_name: "Self-Emplyed",
-    icon: logo,
-    iconBg: "#E6DEDD",
-    date: "Jan 2020 - Present",
-    points: [
-      "Leveraging marketing & hospitality expertise with technical know how to drive brand adoption and retention for a diverse portfolio of lounges and restaurants throughout Washington D.C. ",
-      "Provide bespoke training to company owners and employees to imporve business efficiency & S.O.P's",
-      "Blend creative vision with technical expertise to design and execute compelling multichannel marketing campaigns."
-    ]
   },
   {
     title: "Product Manager",
@@ -136,7 +135,7 @@ const experiences = [
       "Founded a weekly event that grew into a product role, supporting 'The Block' brand Exclusively",
       "Kicked Off Nightlife & Special Events program ",
       " Effectively led manufacturers, engineers, and other graphic designers to source and develop exciting packaging, apparel, and physical store design, in addition to social media graphics, flyer's and promo graphics",
-      "Partnered with key stakeholders to develop innovative experimental branding techniques & systems that consistently exceeded established KPI’s."
+      "Partnered with key stakeholders to develop innovative experimental branding techniques & systems that consistently exceeded established KPI’s.",
     ],
   },
   {
@@ -147,14 +146,12 @@ const experiences = [
     date: "Jul 2013 - Sept 2013",
     points: [
       "Honed skill in Autodesk 3d CAD drafting",
-      "Gained fist hand insight to many industry challenges & solutions via walking over a dozen sites"
+      "Gained fist hand insight to many industry challenges & solutions via walking over a dozen sites",
     ],
-  }
+  },
 ];
 
-
 const projects = [
-  
   {
     name: "High Fashion Earth",
     description:
@@ -171,7 +168,7 @@ const projects = [
     ],
     image: HighFashionEarth,
     source_code_link: "https://github.com/BenRagland/HighFashionEarth",
-    site_link:"https://highfashionearth.com/"
+    site_link: "https://highfashionearth.com/",
   },
   {
     name: "White Label Website",
@@ -179,22 +176,37 @@ const projects = [
       "A project allowing you to customize and download a mockup a t-shirt with any logo, color, or art piece rendered by an A.I image creator. ",
     tags: [
       {
-        name: "ReactJS",
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "threeJs",
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "three.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "A.I",
+        color: "green-text-gradient",
       },
     ],
     image: whiteLabelSS,
     source_code_link: "https://github.com/BenRagland/WhiteLabelWebsite",
-    site_link:"b"
+    site_link: "https://mockanything.com/",
   },
 ];
 
-export { services, technologies, experiences, projects,overviewP1,overviewP2 };
+export {
+  services,
+  technologies,
+  experiences,
+  projects,
+  overviewP1,
+  overviewP2,
+};
