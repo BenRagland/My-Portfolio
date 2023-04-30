@@ -44,7 +44,7 @@ const ProjectTile = ({
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient h-[40%] rounded-full flex justify-center items-center z-100 cursor-pointer"
+              className="black-gradient w-[80px] h-[80px] rounded-full flex justify-center items-center z-[100] cursor-pointer"
             >
               <img
                 src={github}
