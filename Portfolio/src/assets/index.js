@@ -18,13 +18,11 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import tesla from "./company/tesla.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import whiteLabelSS from "./whiteLabelSS.png";
 import LeftMountainFaded from "./LeftMountainFaded.png";
 import RightMountainFaded from "./RightMountainFaded.png";
 import MountainWater from "./MountainWater.png";
-import HighFashionEarth from './HighFashionEarth.png'
+import HighFashionEarth from "./HighFashionEarth.png";
 
 export {
   HighFashionEarth,
@@ -50,7 +48,5 @@ export {
   tailwind,
   threejs,
   tesla,
-  carrent,
-  jobit,
   whiteLabelSS,
 };

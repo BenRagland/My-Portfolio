@@ -34,19 +34,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front-End Web Developer",
     icon: web,
   },
   {
-    title: "Graphic Designer",
-    icon: mobile,
-  },
-  {
-    title: "UI / UX Designer",
+    title: "UI / UX Design",
     icon: creator,
   },
   {
-    title: "Builder",
+    title: "Graphic Design",
+    icon: mobile,
+  },
+  {
+    title: "Back-End Developer / Infrastrucure",
     icon: backend,
   },
 ];
@@ -73,56 +73,88 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Material U.I",
+    icon: web,
+  },
+  {
     name: "Node.jS",
     icon: nodejs,
+  },
+  {
+    name: "Next.jS",
+    icon: web,
   },
   {
     name: "Three.jS",
     icon: threejs,
   },
+  // {
+  //   name: "Git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "Figma",
+  //   icon: figma,
+  // },
   {
-    name: "Git",
-    icon: git,
+    name: "Python",
+    icon: web,
   },
   {
-    name: "Figma",
-    icon: figma,
+    name: "Flask",
+    icon: web,
   },
+  // {
+  //   name: "SQL",
+  //   icon: web,
+  // },
+  // {
+  //   name: "Docker",
+  //   icon: web,
+  // },
+  // {
+  //   name: "Kubernetes",
+  //   icon: web,
+  // },
+  // {
+  //   name: "Google Cloud",
+  //   icon: web,
+  // },
 ];
 
-const overviewP1 = `A results-driven Front End specialist with a keen eye for design and 
-                  a talent for bridging the gap between creativity and business. I have a passion for bringing ideas to life and delivering efficient, user-friendly,
-                  beautiful solutions that make meaningful impact.`;
+const overviewP1 = `A Full Stack Developer with expertise in Python (Flask) for back-end databases and JavaScript for front-end web UI development. 
+  With over 10 years in hospitality, I’m highly trained in sales, communication, and team building.
+   My diverse background makes me uniquely adept at problem solving under high pressure.
+  `;
 
-const overviewP2 = `Whether designing intuitive user interfaces
+const overviewP2 = ` As a developer I’ve  contributed to and led several projects, most notably the startup Clutch Audience. Whether designing intuitive user interfaces
                   or creating a product to grasp a new market, I'm always eager to tackle new challenges 
-                  in new and exciting ways. With my insatitable desire for continuous learning, I'm confident 
-                  that I can bring value to any project or team and help drive its success.  Let's work 
+                  in new and exciting ways. Let's work 
                   together to bring your ideas to life! `;
 
 const experiences = [
   {
-    title: "Freelance Consultant",
-    company_name: "Self-Emplyed",
+    title: "Co-Founder",
+    company_name: "Clutch Audience",
     icon: logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2020 - Present",
+    date: "Jul 20222 - Present",
     points: [
-      "Leverage marketing & hospitality expertise with technical know how to drive brand adoption and retention for a diverse portfolio of lounges and restaurants throughout Washington D.C. ",
-      "Provide bespoke training to company owners and employees to imporve business efficiency & S.O.P's",
-      "Blend creative vision with technical expertise to design and execute compelling multichannel marketing campaigns.",
+      "Designed custom UX/UI theme: Created mockups on Figma to design a unique and engaging user interface. ",
+      "Developed home website (clutchAudience.io): Utilizing React, Next.js & tailwind to build a responsive and dynamic site.",
+      "Built 50% of web app UI: Implemented survey results and analytics screens using React and Material UI Library. Integrated Wavesurfer.js SDK and connected to MongoDB API endpoints hosted on Google Cloud.",
     ],
   },
   {
-    title: "Hospitality",
-    company_name: "Many Notable Brands",
+    title: "Hospitality ",
+    company_name: "Beverage Director, Manager, Bartender",
     icon: logo,
     iconBg: "#383E56",
-    date: "Jan 2010 - Present",
+    date: "Jul 2010 - 2023",
     points: [
-      "Trained extensively fine etiquette & communication with many notable brands including RPM Italian, 12 Stories, Casamigos and  Martell.",
-      "Managed teams of service employees while tracking company kpi's in all sectors of the business.",
-      "Track record of success multitasking in dynamic environments offering an array of skills for over 10 years.",
+      "Designed and launched beverage programs: Designed and launched innovative beverage programs at two venues, catalyzing successful launches and equity offers.",
+      "Managed high-volume bar operations: Led a team of three bartenders in a 120-person small business, generating over $1M in annual revenue.",
+      "Led elite bartender teams: Led nightly operations for 5-person teams, driving establishments serving 400+ patrons daily to exceed $15k in daily revenue through exceptional service and leadership training from top consumer brands.",
     ],
   },
   {
@@ -132,21 +164,20 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2017 - Aug 2018",
     points: [
-      "Founded a weekly event that grew into a product role, supporting 'The Block' brand Exclusively",
-      "Kicked Off Nightlife & Special Events program ",
-      " Effectively led manufacturers, engineers, and other graphic designers to source and develop exciting packaging, apparel, and physical store design, in addition to social media graphics, flyer's and promo graphics",
-      "Partnered with key stakeholders to develop innovative experimental branding techniques & systems that consistently exceeded established KPI’s.",
+      "Founded a weekly Night Life event increasing weekly traffic and revenue; that led into a full-time product role, supporting 'The Block' brand Exclusively",
+      "Created Physical & Digital Restaurant Graphics as well as go to market strategies for new Brand concepts on the fly. Leading to the quick launch & MVP of new Food & Beverage concepts.",
+      "Led a team of marketers to succesfull collaboration wtih engineers, designers, and manufacturers for developing exciting packaging and apparel. ",
     ],
   },
   {
-    title: "Engineering Intern",
-    company_name: "Martin Horne",
+    title: "Civil Engineering Intern",
+    company_name: "Martin Horne Engineering",
     icon: logo,
     iconBg: "#fff",
     date: "Jul 2013 - Sept 2013",
     points: [
-      "Honed skill in Autodesk 3d CAD drafting",
-      "Gained fist hand insight to many industry challenges & solutions via walking over a dozen sites",
+      "Utilized Autodesk 3d CAD to create initial drafts",
+      "Gained fist hand insight to industry challenges & solutions via mentorship and live site walk-throughs.",
     ],
   },
 ];
