@@ -90,12 +90,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Showcasing my coding prowess! Here you'll find real-world examples of
-          my projects, each with a brief rundown, code repositories( github icon
-          in located in upper right corner of each project ), and live demos to
-          play with. My work displays my ability to tackle challenges, navigate
-          different technologies, and get things done with style. So, sit back,
-          relax, and explore what I've cooked up for you!
+          Here are real-world examples of my projects, each with a brief
+          rundown, code repositories( github icon in located in upper right
+          corner of each project ), and live demos to play with. My work
+          displays my ability to tackle challenges, navigate different
+          technologies, and get things done with style. So, sit back, relax, and
+          explore what I've cooked up for you!
         </motion.p>
       </div>
 
