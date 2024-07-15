@@ -195,7 +195,7 @@ const projects = [
       "A platform allowing home buyer to submit an offer to a seller, open a line of communication & track the process.",
     tags: [
       {
-        name: "railwind",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
       {
@@ -216,8 +216,54 @@ const projects = [
       },
     ],
     image: aiRealtor,
-    source_code_link: "https://youtube.com",
+    source_code_link: "https://youtu.be/irBIhDpi-7c",
     site_link: "https://youtu.be/irBIhDpi-7c",
+  },
+  {
+    name: "Clutch Audience",
+    description:
+      "A marketplace for music artists to test their work with listeners worldwide via digital listening sessions.",
+    tags: [
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "microServices",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Aws",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Google Cloud",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "green-text-gradient",
+      },
+    ],
+    image: aiRealtor,
+    source_code_link: "https://youtu.be/JcCbICkLA8o",
+    site_link: "https://youtu.be/JcCbICkLA8o",
   },
   {
     name: "White Label Website",
