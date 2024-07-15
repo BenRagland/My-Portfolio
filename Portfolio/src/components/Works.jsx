@@ -97,6 +97,12 @@ const Works = () => {
           technologies, and get things done with style. So, sit back, relax, and
           explore what I've cooked up for you!
         </motion.p>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-5 text-secondary text-[21px] max-w-4xl leading-[30px]"
+        >
+          ( Click to Wach a Demo or try the website) 
+        </motion.p>
       </div>
 
       <div className="mt-20 justify-center sm:flex sm:flex-wrap gap-7">

@@ -23,6 +23,7 @@ import LeftMountainFaded from "./LeftMountainFaded.png";
 import RightMountainFaded from "./RightMountainFaded.png";
 import MountainWater from "./MountainWater.png";
 import HighFashionEarth from "./HighFashionEarth.png";
+import aiRealtor from "./aiRealtor.png";
 
 export {
   HighFashionEarth,
@@ -49,4 +50,5 @@ export {
   threejs,
   tesla,
   whiteLabelSS,
+  aiRealtor,
 };

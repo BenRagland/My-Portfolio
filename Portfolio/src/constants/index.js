@@ -15,7 +15,13 @@ import {
   backend,
   logo,
   HighFashionEarth,
+  aiRealtor,
 } from "../assets";
+
+const whiteLabelDemoLink = "https://youtu.be/cHcUpVyhps0";
+const whiteLabelGit = "https://github.com/BenRagland/WhiteLabelWebsite";
+
+const stealthRes = "https://youtu.be/irBIhDpi-7c";
 
 export const navLinks = [
   {
@@ -184,30 +190,42 @@ const experiences = [
 
 const projects = [
   {
-    name: "High Fashion Earth",
+    name: "Stealth REs",
     description:
-      "An exciting new company in Arlington, VA that purchases and resales high end clothing. Promoting sustainability and Quality over quantity.",
+      "A platform allowing home buyer to submit an offer to a seller, open a line of communication & track the process.",
     tags: [
+      {
+        name: "railwind",
+        color: "pink-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reactRouter",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Aws",
+        color: "green-text-gradient",
       },
     ],
-    image: HighFashionEarth,
-    source_code_link: "https://github.com/BenRagland/HighFashionEarth",
-    site_link: "https://highfashionearth.com/",
+    image: aiRealtor,
+    source_code_link: "https://youtube.com",
+    site_link: "https://youtu.be/irBIhDpi-7c",
   },
   {
     name: "White Label Website",
     description:
-      "A project allowing you to customize and download a mockup a t-shirt with any logo, color, or art piece rendered by an A.I image creator. ",
+      "A website that allows you to upload or a.i generate from text, an image to an interactive 3d t-shirt to design for mockup.",
     tags: [
       {
-        name: "css",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
       {
@@ -226,10 +244,36 @@ const projects = [
         name: "A.I",
         color: "green-text-gradient",
       },
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framerMotion",
+        color: "blue-text-gradient",
+      },
     ],
     image: whiteLabelSS,
     source_code_link: "https://github.com/BenRagland/WhiteLabelWebsite",
-    site_link: "https://mockanything.com/",
+    site_link: "https://youtu.be/cHcUpVyhps0",
+  },
+  {
+    name: "High Fashion Earth",
+    description:
+      "An exciting new company in Northern VA that purchases and resales high end clothing. Promoting sustainability and Quality over quantity.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: HighFashionEarth,
+    source_code_link: "https://github.com/BenRagland/HighFashionEarth",
+    site_link: "https://youtu.be/_eLRW4iU4zk",
   },
 ];
 
